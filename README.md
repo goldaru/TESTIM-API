@@ -13,8 +13,8 @@ public class AutomationTest {
 
         driver.get("https://www.example.com");
 
-        driver.findElement(By.id("username")).sendKeys("myusername");
-        driver.findElement(By.id("password")).sendKeys("mypassword");
+        driver.findElement(By.id("username")).sendKeys("myusername13113");
+        driver.findElement(By.id("password")).sendKeys("mypassword131313");
         driver.findElement(By.id("loginBtn")).click();
         
         // Add your automation steps here
