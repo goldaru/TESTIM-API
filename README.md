@@ -1,5 +1,5 @@
 # TESTIM-API
-I AM GOLDA MY PROJECT IS ABOUT API TESTIM
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,10 +11,7 @@ public class AutomationTest {
 
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://www.example.com");
 
-        driver.findElement(By.id("username")).sendKeys("myusername13113");
-        driver.findElement(By.id("password")).sendKeys("mypassword131313");
         driver.findElement(By.id("loginBtn")).click();
         
         // Add your automation steps here
